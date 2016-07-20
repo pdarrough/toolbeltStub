@@ -5,7 +5,7 @@
          {
             "file": "ToolbeltStub.war",
             "context": "/calculator",
-            "checkMe": "/calculator/WebContent/ecalculatorStub.html"
+            "checkMe": "/calculator/ecalculatorStub.html"
          }
       ]
    }
