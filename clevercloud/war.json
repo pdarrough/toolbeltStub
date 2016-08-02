@@ -4,8 +4,8 @@
       "war": [
          {
             "file": "ToolbeltStub.war",
-            "context": "/calculator",
-            "checkMe": "/calculator/ecalculatorStub.html"
+            "context": "",
+            "checkMe": "/index.html"
          }
       ]
    }
