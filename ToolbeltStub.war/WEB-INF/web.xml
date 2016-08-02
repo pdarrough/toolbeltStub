@@ -3,7 +3,7 @@
 	xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	id="WebApp_ID" version="2.5">
-	<display-name>toolbelt</display-name>
+	<display-name>toolbeltapps</display-name>
 	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -20,6 +20,7 @@
 		<servlet-name>calculator</servlet-name>
 		<servlet-class>calculator</servlet-class>
 	</servlet>
+	
 	<servlet>
 		<description>Receives requests and returns data</description>
 		<display-name>toolbelt</display-name>
@@ -31,7 +32,8 @@
 		<servlet-name>calculator</servlet-name>
 		<url-pattern>/calculator</url-pattern>
 	</servlet-mapping>
-		<servlet-mapping>
+		
+	<servlet-mapping>
 		<servlet-name>toolbelt</servlet-name>
 		<url-pattern>/toolbelt</url-pattern>
 	</servlet-mapping>
