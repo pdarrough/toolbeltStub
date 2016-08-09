@@ -1,0 +1,12 @@
+{
+   "deploy": {
+      "container": "TOMCAT8",
+      "war": [
+         {
+            "file": "ToolbeltStub.war",
+            "context": "/",
+            "checkMe": "/index.html"
+         }
+      ]
+   }
+}
